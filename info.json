@@ -1,0 +1,30 @@
+{
+  "addon": {
+    "id": "image-resizer",
+    "name": "Image Resizer",
+    "type": "plugin",
+    "version": "0.1.0",
+    "build": 1,
+    "author": "SwiftyEdit Developer Team",
+    "description": "On-the-fly image resizing and format optimization for the {img} Smarty tag: responsive width variants, automatic AVIF/WebP/JPEG negotiation, and disk caching. Requires the GD extension.",
+    "update_url": "https://raw.githubusercontent.com/SwiftyEdit/image-resizer/main/info.json"
+  },
+  "versions": [
+    {
+      "version": "0.1.0",
+      "build": 1,
+      "requires_build": "26-0195",
+      "download_url": "https://github.com/SwiftyEdit/image-resizer/releases/download/v0.1.0/image-resizer-0.1.0.zip"
+    }
+  ],
+  "navigation": [
+    {
+      "text": "nav_overview",
+      "file": "start"
+    },
+    {
+      "text": "nav_settings",
+      "file": "settings"
+    }
+  ]
+}

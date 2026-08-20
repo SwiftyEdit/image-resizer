@@ -1,0 +1,20 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.idea/
+.vscode/
+*.iml
+
+# Runtime settings written by backend/writer.php from config.tpl on save
+# (cache.php already treats a missing/partial config.php as "use defaults",
+# so it's safe to not ship this - same convention as media-pro's
+# /data/apikey.php)
+/config.php
+
+# Release build artifacts (attach to GitHub Releases instead of committing)
+/*.zip
+
+# Logs
+*.log
